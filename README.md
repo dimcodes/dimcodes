@@ -1,4 +1,4 @@
-<h1 align="center">Hi 👋, I'm Ahmad Fardan Adhim</h1>
+<h1 align="center">Hi <img src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/Hi.gif" width="30">, I'm Ahmad Fardan Adhim</h1>
 
 <h3>Connect with me</h3>
 
