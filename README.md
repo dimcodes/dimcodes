@@ -1,15 +1,11 @@
 <h1 align="center">Hi 👋, I'm Ahmad Fardan Adhim</h1>
 
 <h2>Social</h2>
-  <a href="https://instagram.com/username" target="_blank" style="text-decoration:none; border:0; outline:none;">
-    <img src="https://raw.githubusercontent.com/CLorant/readme-social-icons/main/large/filled/instagram.svg" width="48" />
-  </a>
-  <a href="https://youtube.com/@username" target="_blank" style="text-decoration:none; border:0; outline:none;">
-    <img src="https://raw.githubusercontent.com/CLorant/readme-social-icons/main/large/filled/youtube.svg" width="48" />
-  </a>
-  <a href="https://tiktok.com/@username" target="_blank" style="text-decoration:none; border:0; outline:none;">
-    <img src="https://raw.githubusercontent.com/CLorant/readme-social-icons/main/large/filled/tiktok.svg" width="48" />
-  </a>
+
+[![Instagram](https://skillicons.dev/icons?i=instagram)](https://instagram.com/ddrinim)
+[![YouTube](https://go-skill-icons.vercel.app/api/icons?i=youtube)](https://youtube.com/@vvrdim)
+[<img src="https://raw.githubusercontent.com/CLorant/readme-social-icons/main/large/filled/tiktok.svg" width="48">](https://tiktok.com/@vvrdim)
+[![Gmail](https://skillicons.dev/icons?i=gmail&theme=light)](mailto:12@gmail.com)
 
 <h2>Tech Stack</h2>
 
