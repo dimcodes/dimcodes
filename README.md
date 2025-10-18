@@ -8,8 +8,7 @@
   
 - 📫 Feel free to contact me at: **fardanadhim@gmail.com**
 
-  
-![](https://komarev.com/ghpvc/?username=dimcodes&abbreviated=true&style=for-the-badge)
+  <img src="/kelaskink" alt="pemula" width="100%">
 
 <h2>Connect with me</h2>
 
@@ -48,6 +47,8 @@
 ![](https://github-readme-stats.vercel.app/api?username=dimcodes&theme=transparent&hide_border=false&include_all_commits=true&count_private=false)<br/>
 
 ![](https://nirzak-streak-stats.vercel.app/?user=dimcodes&theme=transparent&hide_border=false)<br/>
+
+![](https://komarev.com/ghpvc/?username=dimcodes&abbreviated=true&style=for-the-badge)
 
 <h2>Top Contributed Repo</h2>
 
