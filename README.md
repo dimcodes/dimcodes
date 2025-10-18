@@ -34,9 +34,6 @@
 
 ![](https://github-contributor-stats.vercel.app/api?username=dimcodes&limit=5&theme=transparent&combine_all_yearly_contributions=true)
 
-[![](https://visitcount.itsvg.in/api?id=dimcodes&icon=10&color=6)](https://visitcount.itsvg.in)
-
-
 ![snake gif](https://github.com/dimcodes/dimcodes/blob/output/github-snake.svg)
 
 ---
