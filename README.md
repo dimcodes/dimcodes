@@ -35,9 +35,11 @@
 ![](https://github-contributor-stats.vercel.app/api?username=dimcodes&limit=5&theme=transparent&combine_all_yearly_contributions=true)
 
 <p align="center">
-  
-  ![snake gif](https://github.com/dimcodes/dimcodes/blob/output/github-snake.svg)
-  
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/dimcodes/dimcodes/output/github-snake.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/dimcodes/dimcodes/output/github-snake-dark.svg">
+    <img alt="github-snake" src="https://raw.githubusercontent.com/dimcodes/dimcodes/output/github-snake.svg" width="1000">
+  </picture>
 </p>
 
 ---
