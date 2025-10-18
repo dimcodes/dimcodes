@@ -1,17 +1,17 @@
 <h1 align="center">Hi 👋, I'm Ahmad Fardan Adhim</h1>
 
-<h2>Social</h2>
+<h3>Connect with me</h3>
 
 [<img src="https://skillicons.dev/icons?i=instagram" width="34">](https://instagram.com/ddrinim)
 [<img src="https://go-skill-icons.vercel.app/api/icons?i=youtube" width="34">](https://youtube.com/@vvrdim)
 [<img src="https://raw.githubusercontent.com/CLorant/readme-social-icons/main/large/colored/tiktok.svg" width="34">](https://tiktok.com/@vvrdim)
 [<img src="https://skillicons.dev/icons?i=gmail&theme=light" width="34">](mailto:fardanadhim@gmail.com)
 
-<h2>Tech Stack</h2>
+<h3>The technology I know</h3>
 
 <img src="https://skillicons.dev/icons?i=html,css,js,cpp,firebase,supabase,github,vscode,netlify,cloudflare,vercel,jquery,wordpress,canva,portfolio,apache,chakra&perline=9" width="600"/>
 
-<h2>Github Stats</h2>
+<h3>Github Stats</h3>
 
 ![](https://github-readme-stats.vercel.app/api?username=dimcodes&theme=**default_light**&hide_border=false&include_all_commits=true&count_private=false)<br/>
 ![](https://nirzak-streak-stats.vercel.app/?user=dimcodes&theme=**default_light**&hide_border=false)<br/>
