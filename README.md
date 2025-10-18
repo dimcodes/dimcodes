@@ -27,8 +27,8 @@
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=dimcodes&layout=compact&theme=transparent)
 
 ![](https://github-readme-stats.vercel.app/api?username=dimcodes&theme=transparent&hide_border=false&include_all_commits=true&count_private=false)<br/>
+
 ![](https://nirzak-streak-stats.vercel.app/?user=dimcodes&theme=transparent&hide_border=false)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=dimcodes&theme=transparent&hide_border=false&include_all_commits=true&count_private=false&layout=compact)
 
 <h2>Top Contributed Repo</h2>
 
