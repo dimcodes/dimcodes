@@ -18,7 +18,7 @@
 [<img src="https://raw.githubusercontent.com/CLorant/readme-social-icons/main/large/colored/tiktok.svg" width="34">](https://tiktok.com/@vvrdim)
 [<img src="https://skillicons.dev/icons?i=gmail&theme=light" width="34">](mailto:fardanadhim@gmail.com)
 
-<h3>The technology I know</h3>
+<h2>The technology I know</h2>
 
 <img src="https://skillicons.dev/icons?i=html,css,js,cpp,firebase,supabase,github,vscode,netlify,cloudflare,bootstrap,vercel,jquery,wordpress,canva,portfolio,apache,chakra&perline=9" width="600"/>
 
