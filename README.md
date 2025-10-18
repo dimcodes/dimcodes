@@ -11,7 +11,7 @@
   
 ![](https://komarev.com/ghpvc/?username=dimcodes&style=for-the-badge)
 
-<h3>Connect with me</h3>
+<h2>Connect with me</h2>
 
 [<img src="https://skillicons.dev/icons?i=instagram" width="34">](https://instagram.com/ddrinim)
 [<img src="https://go-skill-icons.vercel.app/api/icons?i=youtube" width="34">](https://youtube.com/@vvrdim)
@@ -22,7 +22,7 @@
 
 <img src="https://skillicons.dev/icons?i=html,css,js,cpp,firebase,supabase,github,vscode,netlify,cloudflare,bootstrap,vercel,jquery,wordpress,canva,portfolio,apache,chakra&perline=9" width="600"/>
 
-<h3>Github Stats</h3>
+<h2>Github Stats</h2>
 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=dimcodes&layout=compact&theme=transparent)
 
