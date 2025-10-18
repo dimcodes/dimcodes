@@ -5,7 +5,7 @@
 [<img src="https://skillicons.dev/icons?i=instagram" width="34">](https://instagram.com/ddrinim)
 [<img src="https://go-skill-icons.vercel.app/api/icons?i=youtube" width="34">](https://youtube.com/@vvrdim)
 [<img src="https://raw.githubusercontent.com/CLorant/readme-social-icons/main/large/colored/tiktok.svg" width="34">](https://tiktok.com/@vvrdim)
-[<img src="https://skillicons.dev/icons?i=gmail&theme=light" width="34">](mailto:12@gmail.com)
+[<img src="https://skillicons.dev/icons?i=gmail&theme=light" width="34">](mailto:fardanadhim@gmail.com)
 
 <h2>Tech Stack</h2>
 
