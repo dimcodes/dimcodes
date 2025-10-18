@@ -4,7 +4,7 @@
   
 - 💬 Ask me about **Partner for Collaborate on coding, or ask questions**
   
-- 🧠 I’m also exploring **UI/UX design** and pixel-perfect front-end development
+- 🧠 I’m also exploring **UI/UX design** and often **Graphic designer**
   
 - 📫 Feel free to contact me at: **fardanadhim@gmail.com**
 
