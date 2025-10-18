@@ -9,7 +9,7 @@
 - 📫 Feel free to contact me at: **fardanadhim@gmail.com**
 
   
-![](https://komarev.com/ghpvc/?username=dimcodes1&style=for-the-badge)
+![](https://komarev.com/ghpvc/?username=dimcodes&style=for-the-badge)
 
 <h2>Connect with me</h2>
 
