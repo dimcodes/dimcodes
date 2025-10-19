@@ -7,8 +7,8 @@
 - 🧠 I’m also exploring **UI/UX design** and often **Graphic designer**
   
 - 📫 Feel free to contact me at: **fardanadhim@gmail.com**
-
-  <img src="/kelaskink" alt="pemula" width="100%">
+  
+<img src="https://github.com/dimcodes/dimcodes/raw/refs/heads/main/kelaskink" alt="pemula" width="100%">
 
 <picture>
 <picture>
