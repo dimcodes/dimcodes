@@ -1,45 +1,36 @@
-name: Generate Pacman Contribution Graph
+name: Generate pacman animation
 
 on:
-  schedule:
-    - cron: "0 */12 * * *"  # jalan tiap 12 jam
-  workflow_dispatch:        # bisa kamu jalankan manual juga
+  schedule: # execute every 12 hours
+    - cron: "0 */12 * * *"
+
+  workflow_dispatch:
+
+  push:
+    branches:
+      - main
 
 jobs:
-  build:
+  generate:
+    permissions:
+      contents: write
     runs-on: ubuntu-latest
+    timeout-minutes: 5
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
+      - name: Generate pacman-contribution-graph.svg
+        uses: abozanona/pacman-contribution-graph@main
         with:
-          node-version: 20
-
-      - name: Install Pacman Contribution Graph
-        run: npm install -g pacman-contribution-graph
-
-      - name: Generate Pacman graph (light + dark)
-        run: |
-          mkdir -p dist
-          pacman-contribution-graph \
-            --username dimcodes \
-            --token ${{ secrets.GITHUB_TOKEN }} \
-            --output dist/pacman-contribution-graph.svg
-
-          pacman-contribution-graph \
-            --username dimcodes \
-            --token ${{ secrets.GITHUB_TOKEN }} \
-            --theme dark \
-            --output dist/pacman-contribution-graph-dark.svg
+          github_user_name: ${{ github.repository_owner }}
 
       - name: Deploy Pacman Graphs
-  uses: peaceiris/actions-gh-pages@v3
-  with:
-    github_token: ${{ secrets.GITHUB_TOKEN }}
-    publish_branch: output
-    publish_dir: ./dist
-    keep_files: true
-    commit_message: "update pacman graph [skip ci]"
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: output
+          publish_dir: ./dist
+          keep_files: true
+          commit_message: "Update pacman animation [skip ci]"
