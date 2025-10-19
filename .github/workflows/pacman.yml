@@ -31,10 +31,10 @@ jobs:
           ls -R dist || echo "dist folder not found!"
 
       - name: Deploy Pacman Graphs
-        uses: peaceiris/actions-gh-pages@v3
+        uses: crazy-max/ghaction-github-pages@v4
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_branch: output
-          publish_dir: ./dist
-          keep_files: true
-          commit_message: "Update pacman animation [skip ci]"
+          target_branch: output
+          build_dir: dist
+          keep_history: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
