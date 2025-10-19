@@ -1,33 +1,45 @@
-name: Generate pacman animation
+name: Generate Pacman Contribution Graph
 
 on:
   schedule:
-    - cron: "0 */12 * * *"
-  workflow_dispatch:
-  push:
-    branches:
-      - main
+    - cron: "0 */12 * * *"  # jalan tiap 12 jam
+  workflow_dispatch:        # bisa kamu jalankan manual juga
 
 jobs:
-  generate:
-    permissions:
-      contents: write
+  build:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Generate pacman-contribution-graph.svg
-        uses: abozanona/pacman-contribution-graph@main
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
         with:
-          github_user_name: ${{ github.repository_owner }}
+          node-version: 20
 
-      - name: Push pacman-contribution-graph.svg to output branch
+      - name: Install Pacman Contribution Graph
+        run: npm install -g pacman-contribution-graph
+
+      - name: Generate Pacman graph (light + dark)
+        run: |
+          mkdir -p dist
+          pacman-contribution-graph \
+            --username dimcodes \
+            --token ${{ secrets.GITHUB_TOKEN }} \
+            --output dist/pacman-contribution-graph.svg
+
+          pacman-contribution-graph \
+            --username dimcodes \
+            --token ${{ secrets.GITHUB_TOKEN }} \
+            --theme dark \
+            --output dist/pacman-contribution-graph-dark.svg
+
+      - name: Deploy to output branch (keep history)
         uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: output
           build_dir: dist
+          keep_history: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
