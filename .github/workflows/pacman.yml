@@ -25,15 +25,10 @@ jobs:
           github_user_name: ${{ github.repository_owner }}
           github_token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Check dist folder contents
-        run: |
-          echo "=== Checking dist directory ==="
-          ls -R dist || echo "dist folder not found!"
-
       - name: Deploy Pacman Graphs
         uses: crazy-max/ghaction-github-pages@v4
         with:
-          target_branch: output
+          target_branch: output-pacman
           build_dir: dist
           keep_history: true
         env:
